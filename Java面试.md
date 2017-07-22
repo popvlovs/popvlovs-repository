@@ -10,25 +10,24 @@
 
 ## 1. hashCode和equals的区别与联系
 > - `Object.equals()`：判断两个Object是否相等，在Object类中，其默认实现是比较Object之间是否为相同引用。
-
 > - `Object.hashcode()`：获取对象的散列值，主要用于`HashMap`和`HashSet`等集合中。
 
 ---
 
 > 1. equals的两个对象，其hashcode值一定相同
-2. hashcode相同的两个对象，不一定equals
+> 2. hashcode相同的两个对象，不一定equals
 
 ## 2. hashmap的底层实现
->###hashmap的定义    
-HashMap是基于哈希表的Map接口的[非同步实现](#sync)。此实现提供所有可选的映射操作，并允许使用null值和null键。[此类不保证映射的顺序](#treemap)，特别是它不保证该顺序恒久不变。
+###hashmap的定义    
+>HashMap是基于哈希表的Map接口的[非同步实现](#sync)。此实现提供所有可选的映射操作，并允许使用null值和null键。[此类不保证映射的顺序](#treemap)，特别是它不保证该顺序恒久不变。
 
 > - <span id = "treemap"></span>`Map接口的另一个实现TreeMap是保序的`
 > - <span id = "sync"></span>`据说可以通过Collection中的方法，变为线程安全的`
 
 ---
 
->###hashmap的数据结构
-HashMap实际上是一个“链表散列”的数据结构，即数组和链表的结合体。
+###hashmap的数据结构
+>HashMap实际上是一个“链表散列”的数据结构，即数组和链表的结合体。
 ![hashmap的底层实现][hashmap.jpg]
 
 ---
@@ -56,7 +55,7 @@ static class Entry<K,V> implements Map.Entry<K,V> {
 3. 索引处的`entry`不为空时（hash冲突），遍历`entry`链
 4. 若`key.equals( entry.key )`则覆盖原`entry`否则执行 [addEntry](#addEntry)
 5. 索引处的`entry`为空时，执行 [addEntry](#addEntry)
-```
+```java
 public V put(K key, V value) {  
     // HashMap允许存放null键和null值。  
     // 当key为null时，调用putForNullKey方法，将value放置在数组第一个位置。  
@@ -87,7 +86,7 @@ public V put(K key, V value) {
 - **hashmap.addEntry**<span id='addEntry'></span>
 1. `Entry`的挂接采用`insert`到头部的方法，即在`table[index]`处新建`Entry`，并指向原`Entry`
 2. `table`长度一旦不够用，就会自动扩充到原来的两倍，并重新进行`hash`
-```
+```java
 void addEntry(int hash, K key, V value, int bucketIndex) {  
     // 获取指定 bucketIndex 索引处的 Entry   
     Entry<K,V> e = table[bucketIndex];  
@@ -100,7 +99,7 @@ void addEntry(int hash, K key, V value, int bucketIndex) {
 }  
 ```
 - **hashmap.hash**
-```
+```java
 static int hash(int h) {  
     h ^= (h >>> 20) ^ (h >>> 12);  
     return h ^ (h >>> 7) ^ (h >>> 4);  
@@ -111,14 +110,14 @@ static int hash(int h) {
 
     这也是为什么要求`hashmap.length`必须是2的指数幂
 
-```
+```java
 static int indexFor(int h, int length) {  
     return h & (length-1);  
 }  
 ```
 ### hashmap读取，get
 基本和put的逻辑一样
-```
+```java
 public V get(Object key) {  
     if (key == null)  
         return getForNullKey();  
