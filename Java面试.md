@@ -18,7 +18,7 @@
 > 2. hashcode相同的两个对象，不一定equals
 
 ## 2. hashmap的底层实现
-###hashmap的定义    
+### hashmap的定义    
 >HashMap是基于哈希表的Map接口的[非同步实现](#sync)。此实现提供所有可选的映射操作，并允许使用null值和null键。[此类不保证映射的顺序](#treemap)，特别是它不保证该顺序恒久不变。
 
 > - <span id = "treemap"></span>`Map接口的另一个实现TreeMap是保序的`
@@ -26,13 +26,13 @@
 
 ---
 
-###hashmap的数据结构
+### hashmap的数据结构
 >HashMap实际上是一个“链表散列”的数据结构，即数组和链表的结合体。
 ![hashmap的底层实现][hashmap.jpg]
 
 ---
 
-###hashmap数据结构的代码表示
+### hashmap数据结构的代码表示
 `table` 为链表数组
 `Entry` 为链表节点，包括`Key-Value`和对下一个`Entry`的引用
 ```java
@@ -49,7 +49,7 @@ static class Entry<K,V> implements Map.Entry<K,V> {
     ……  
 }  
 ```
-###hashmap存储，put
+### hashmap存储，put
 1. 计算`key`的`hashcode`值
 2. 通过[hash](#hash) ,获取`hashcode`值在`table`中的索引
 3. 索引处的`entry`不为空时（hash冲突），遍历`entry`链
