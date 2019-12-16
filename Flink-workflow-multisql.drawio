@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-16T04:29:52.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="4HUoIYTJ8NdkjlUz2cSg" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-16T04:30:12.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="g0uDMxZIyQQ96Mpb-ZW7" version="12.4.2" type="github" pages="1">
   <diagram id="5oHo156hD7aWGHc_Lqq2" name="Page-1">
     <mxGraphModel dx="1956" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -228,14 +228,14 @@
         <mxCell id="lhhFtVvyf6lX1trDiARA-84" value="过滤条件写在每条规则中，则数据量的reduce发生在这里" style="html=1;whiteSpace=wrap;comic=1;strokeWidth=2;fontFamily=Comic Sans MS;fontStyle=1;dashed=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="850" y="530" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="lhhFtVvyf6lX1trDiARA-85" value="" style="rounded=0;comic=1;strokeWidth=4;endArrow=blockThin;html=1;fontFamily=Comic Sans MS;fontStyle=1;fontColor=#FF0000;fillColor=#f8cecc;strokeColor=#CC0000;" edge="1" parent="1">
+        <mxCell id="lhhFtVvyf6lX1trDiARA-85" value="" style="rounded=0;comic=1;strokeWidth=4;endArrow=blockThin;html=1;fontFamily=Comic Sans MS;fontStyle=1;fontColor=#FF0000;fillColor=#f8cecc;strokeColor=#CC0000;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lhhFtVvyf6lX1trDiARA-86">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="450" as="sourcePoint"/>
             <mxPoint x="420" y="350" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="lhhFtVvyf6lX1trDiARA-86" value="前置过滤的话，数据量的reduce发生在这里" style="html=1;whiteSpace=wrap;comic=1;strokeWidth=2;fontFamily=Comic Sans MS;fontStyle=1;dashed=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="450" width="120" height="60" as="geometry"/>
+          <mxGeometry x="230" y="470" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="lhhFtVvyf6lX1trDiARA-89" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=none;gradientColor=none;fontColor=#FF0000;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="-156" y="630" width="606" height="30" as="geometry"/>
