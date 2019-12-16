@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-16T04:30:12.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="g0uDMxZIyQQ96Mpb-ZW7" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-16T04:33:31.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="BDFFbd0zbzPdq5w1-oo9" version="12.4.2" type="github" pages="1">
   <diagram id="5oHo156hD7aWGHc_Lqq2" name="Page-1">
     <mxGraphModel dx="1956" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,6 +239,18 @@
         </mxCell>
         <mxCell id="lhhFtVvyf6lX1trDiARA-89" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=none;gradientColor=none;fontColor=#FF0000;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="-156" y="630" width="606" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="lhhFtVvyf6lX1trDiARA-93" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=none;gradientColor=none;fontColor=#FF0000;strokeColor=#FF0000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="390" width="330" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="lhhFtVvyf6lX1trDiARA-94" value="导致两种场景下，出现性能差异的地方只可能是from和where翻译出来的两个processFunction，进一步说，我觉得是from中的拷贝行为导致的" style="html=1;whiteSpace=wrap;comic=1;strokeWidth=2;fontFamily=Comic Sans MS;fontStyle=1;dashed=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="584" y="525" width="200" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="lhhFtVvyf6lX1trDiARA-97" value="" style="rounded=0;comic=1;strokeWidth=4;endArrow=blockThin;html=1;fontFamily=Comic Sans MS;fontStyle=1;fontColor=#FF0000;fillColor=#f8cecc;strokeColor=#CC0000;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lhhFtVvyf6lX1trDiARA-94" target="lhhFtVvyf6lX1trDiARA-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="540" as="sourcePoint"/>
+            <mxPoint x="590" y="480" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
