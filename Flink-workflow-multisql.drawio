@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-16T04:41:53.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="2xZMGcB_aoFI2IauchQP" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-16T04:42:25.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="zAeOWgJn7lN_5qKth6gp" version="12.4.2" type="github" pages="1">
   <diagram id="5oHo156hD7aWGHc_Lqq2" name="Page-1">
     <mxGraphModel dx="1956" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -258,8 +258,8 @@
         <mxCell id="lhhFtVvyf6lX1trDiARA-100" value="from clause被翻译成的processFunction，它会将事件依据from字段，从原始数据格式中抽取对应字段，组成Row对象，作为TableApi的输入，这是一个等效序列化/反序列化/拷贝过程" style="html=1;whiteSpace=wrap;comic=1;strokeWidth=2;fontFamily=Comic Sans MS;fontStyle=1;dashed=1;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="-180" y="505" width="240" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="lhhFtVvyf6lX1trDiARA-103" value="这是Flink SQL编译成的OperatorChain，其中Partition之后的部分不用关注，因为即使where之后数据量reduce到0，性能依旧不高，这说明主要的性能开销在partition之前——即CopyingBroadcastingOutputCollector中" style="html=1;whiteSpace=wrap;comic=1;strokeWidth=2;fontFamily=Comic Sans MS;fontStyle=1;dashed=1;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-162" y="220" width="246" height="90" as="geometry"/>
+        <mxCell id="lhhFtVvyf6lX1trDiARA-103" value="这是500条Flink SQL编译成的OperatorChain，其中Partition之后的部分不用关注，因为即使where之后数据量reduce到0，性能依旧不高，这说明主要的性能开销在partition之前——即CopyingBroadcastingOutputCollector中" style="html=1;whiteSpace=wrap;comic=1;strokeWidth=2;fontFamily=Comic Sans MS;fontStyle=1;dashed=1;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-162" y="200" width="246" height="110" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
