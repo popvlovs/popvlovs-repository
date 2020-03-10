@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-10T05:51:43.045Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="rkZ3Ia_n7yLqYyT3he9P" version="12.8.2" type="github">
+<mxfile host="www.draw.io" modified="2020-03-10T09:57:14.802Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="-jd9V6woPWk2dFQ1dJVX" version="12.8.2" type="github">
   <diagram id="a8icLzWL3urJe5IejHGM" name="Page-1">
-    <mxGraphModel dx="1132" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
         <mxCell id="1m2Oc26Yyuqte2JHS64r-18" value="&lt;span style=&quot;white-space: nowrap ; line-height: 150%&quot;&gt;Entry Event: B&lt;br&gt;Scan B indices:&lt;br&gt;B.dst_address = 172.16.11.1&lt;br&gt;&lt;br&gt;Search C&amp;nbsp; by indices and Find C:&lt;br&gt;Yes&lt;br&gt;&lt;br&gt;Search D by indices and D not found:&lt;br&gt;No&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="100" y="260" width="270" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="1m2Oc26Yyuqte2JHS64r-19" value="&lt;span style=&quot;white-space: nowrap ; line-height: 150%&quot;&gt;从入口节点开始遍历所有分组，&lt;br&gt;&lt;br&gt;假设数据复杂度不高（即每个事件分类的分组数较少），且不涉及range匹配操作符（比如 GT, LT 或者Regex之类）&lt;br&gt;则搜索结果集的数量应当是有限的&lt;br&gt;Result:&lt;br&gt;1. A.src_address = 172.16.11.1&lt;br&gt;&amp;nbsp; &amp;nbsp; C.dst_address&amp;nbsp; = 172.16.11.1 AND C.src_adress = 127.0.0.1 AND C.file_name = &#39;text.xml&#39;&lt;br&gt;&amp;nbsp; &amp;nbsp; B.dst_address =&amp;nbsp; 127.0.0.1&lt;br&gt;&amp;nbsp; &amp;nbsp; D.file_name = &#39;text.xml&#39;&lt;br&gt;&lt;br&gt;2. ....&lt;br&gt;3. ....&lt;br&gt;4. ....&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="1m2Oc26Yyuqte2JHS64r-19" value="&lt;span style=&quot;white-space: nowrap ; line-height: 150%&quot;&gt;从入口节点开始遍历所有分组，&lt;br&gt;&lt;br&gt;假设数据复杂度不高（即每个事件分类的分组数较少），且不涉及range匹配操作符（比如 GT, LT 或者Regex之类）&lt;br&gt;则搜索结果集的数量应当是有限的&lt;br&gt;Result:&lt;br&gt;1. A.src_address = 172.16.11.1&lt;br&gt;&amp;nbsp; &amp;nbsp; C.dst_address&amp;nbsp; = 172.16.11.1 AND C.src_adress = 127.0.0.1&lt;br&gt;&amp;nbsp; &amp;nbsp; B.dst_address =&amp;nbsp; 127.0.0.1 AND B.file_name = &#39;text.xml&#39;&lt;br&gt;&amp;nbsp; &amp;nbsp; D.file_name = &#39;text.xml&#39;&lt;br&gt;&lt;br&gt;2. ....&lt;br&gt;3. ....&lt;br&gt;4. ....&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="100" y="450" width="660" height="290" as="geometry" />
         </mxCell>
       </root>
