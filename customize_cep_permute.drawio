@@ -1,1 +1,43 @@
-<mxfile host="www.draw.io" modified="2020-03-10T02:38:48.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" version="12.8.2" etag="bwzm_x6XrXXccE3G78oy" type="github"><diagram id="a8icLzWL3urJe5IejHGM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-10T02:49:54.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="-N2gNEj9hy49FutOXnP3" version="12.8.2" type="github">
+  <diagram id="a8icLzWL3urJe5IejHGM" name="Page-1">
+    <mxGraphModel dx="808" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1m2Oc26Yyuqte2JHS64r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="1m2Oc26Yyuqte2JHS64r-1" target="1m2Oc26Yyuqte2JHS64r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1m2Oc26Yyuqte2JHS64r-1" value="A" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1m2Oc26Yyuqte2JHS64r-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="1m2Oc26Yyuqte2JHS64r-2" target="1m2Oc26Yyuqte2JHS64r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1m2Oc26Yyuqte2JHS64r-2" value="B" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1m2Oc26Yyuqte2JHS64r-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="1m2Oc26Yyuqte2JHS64r-3" target="1m2Oc26Yyuqte2JHS64r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1m2Oc26Yyuqte2JHS64r-3" value="C" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1m2Oc26Yyuqte2JHS64r-4" value="D" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1m2Oc26Yyuqte2JHS64r-8" value="&lt;p style=&quot;line-height: 150%&quot;&gt;A.src_address = C.dst_address &lt;br&gt;&amp;nbsp; &amp;nbsp; AND &lt;br&gt;B.dst_address = C.src_address&lt;br&gt;&amp;nbsp; &amp;nbsp; AND&lt;br&gt;B.file_name = D.file_name&lt;/p&gt;&lt;p style=&quot;line-height: 150%&quot;&gt;Storage Structs，in case of event C&lt;/p&gt;&lt;p style=&quot;line-height: 150%&quot;&gt;Map&amp;lt;String, Queue&amp;gt; eventIndices&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;line-height: 150%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;127.0.0.1&#39; : [ eventC_0, eventC_2 .... ]&lt;/p&gt;&lt;p style=&quot;line-height: 150%&quot;&gt;&amp;nbsp;&quot;src_address&quot;:&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;line-height: 150%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;172.16.10.1&#39;: [ eventC_1, eventC_3... ]&lt;/p&gt;&lt;p style=&quot;line-height: 150%&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 150%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;172.16.11.1&#39;: [ eventC_1, eventC_2... ]&lt;/p&gt;&lt;p style=&quot;line-height: 150%&quot;&gt;&quot;dst_address&quot;&lt;/p&gt;&lt;p style=&quot;line-height: 150%&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;172.1.1.1&#39;: [ eventC_0, event_C_3... ]&lt;/p&gt;" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="60" width="560" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="1m2Oc26Yyuqte2JHS64r-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="280" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1m2Oc26Yyuqte2JHS64r-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1m2Oc26Yyuqte2JHS64r-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="370" width="20" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
