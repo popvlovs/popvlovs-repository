@@ -1,1 +1,128 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T01:58:54.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.564.44" version="13.6.6" etag="SjlfrDiFzcOVWScVz-Ne" type="github"><diagram id="VCWoIUJgW99_T6yGBpO5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-07T02:18:30.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.564.44" etag="5wVH8tWj_5ctkH5yyzbw" version="13.6.6" type="github">
+  <diagram id="VCWoIUJgW99_T6yGBpO5" name="Page-1">
+    <mxGraphModel dx="1917" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IJHsQ5mVuchHVseZr73N-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-1" target="IJHsQ5mVuchHVseZr73N-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-1" value="从Kafka消费&lt;br&gt;告警数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-2" target="IJHsQ5mVuchHVseZr73N-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-30" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IJHsQ5mVuchHVseZr73N-6">
+          <mxGeometry x="0.3444" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-2" value="是否属于入口告警？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-5" target="IJHsQ5mVuchHVseZr73N-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-5" value="基于Esper Pattern&lt;br&gt;匹配现有安全事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-7" target="IJHsQ5mVuchHVseZr73N-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-18" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IJHsQ5mVuchHVseZr73N-12">
+          <mxGeometry x="-0.5805" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-7" value="匹配任意&lt;br&gt;安全事件？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="270" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-8" target="IJHsQ5mVuchHVseZr73N-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-8" value="创建安全事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="740" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-13" target="IJHsQ5mVuchHVseZr73N-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-13" value="创建Esper规则&lt;br&gt;以捕获后续告警" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="930" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-16" value="创建/提交&lt;br&gt;历史数据搜索任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1120.5" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-19" target="IJHsQ5mVuchHVseZr73N-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-19" value="更新现有安全事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="740" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-7" target="IJHsQ5mVuchHVseZr73N-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="339.9999999999999" as="sourcePoint" />
+            <mxPoint x="750" y="449.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-21" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IJHsQ5mVuchHVseZr73N-20">
+          <mxGeometry x="-0.5805" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-22" target="IJHsQ5mVuchHVseZr73N-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-22" value="更新Esper规则&lt;br&gt;以捕获后续告警" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="930" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-24" value="创建/更新/提交&lt;br&gt;历史数据搜索任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1120.5" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-28" target="IJHsQ5mVuchHVseZr73N-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-28" value="历史数据搜索任务队列&lt;br&gt;滚动执行任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-24" target="IJHsQ5mVuchHVseZr73N-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="170" as="sourcePoint" />
+            <mxPoint x="1130.4999999999998" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-16" target="IJHsQ5mVuchHVseZr73N-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250.5" y="170" as="sourcePoint" />
+            <mxPoint x="1390" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-34" value="搜索结果&lt;br&gt;告警/日志" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-34" target="IJHsQ5mVuchHVseZr73N-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="280" as="sourcePoint" />
+            <mxPoint x="1460" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-37" value="执行ES搜索" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJHsQ5mVuchHVseZr73N-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IJHsQ5mVuchHVseZr73N-37" target="IJHsQ5mVuchHVseZr73N-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="280" as="sourcePoint" />
+            <mxPoint x="1460" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1450" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
