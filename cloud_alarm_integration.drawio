@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T07:56:49.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="uxMKP0oq05LeI91-ATjA" version="16.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-15T08:04:57.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="noxF0PZOI2DD1n6rj6kn" version="16.5.5" type="github">
   <diagram id="t6b9rKnDIsS_C2fRlYH6" name="Page-1">
-    <mxGraphModel dx="934" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1128" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
         <mxCell id="UxuYxFG4b6_E9TaE2Zh3-30" value="告警" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="740" y="376" width="55" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-31" value="①编辑控制参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-31" value="⑤云端存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="850" y="210" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UxuYxFG4b6_E9TaE2Zh3-35" value="Cloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
@@ -91,7 +91,7 @@
             <mxPoint x="740" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-38" value="①加载控制参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-38" value="加载控制参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="960" y="410" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UxuYxFG4b6_E9TaE2Zh3-39" value="控制参数下发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
@@ -112,11 +112,11 @@
         <mxCell id="UxuYxFG4b6_E9TaE2Zh3-43" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="740" y="436" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-44" value="②定时接收原始告警" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-44" value="①消费原始告警" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="710" y="406" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-45" value="⑤组装上报数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="890" y="360" width="120" height="30" as="geometry" />
+        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-45" value="④组装上报数据&lt;br&gt;字段裁剪" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="890" y="370" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UxuYxFG4b6_E9TaE2Zh3-46" value="ES" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="1050" y="510" width="70" height="55" as="geometry" />
@@ -127,11 +127,14 @@
             <mxPoint x="970" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-48" value="③上传控制（熔断+去重）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-48" value="②上传控制（熔断+去重）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="825" y="480" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-49" value="④拉取原始日志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-49" value="③拉取原始日志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1000" y="480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UxuYxFG4b6_E9TaE2Zh3-50" value="告警+日志" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="905" y="320" width="65" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
