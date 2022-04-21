@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T04:25:28.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="rDV_jupvr_09u_L4NxHl" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T04:41:12.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="DKCdW2fUWMMka9eKscjn" version="17.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1007" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1094" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -85,6 +85,133 @@
         </mxCell>
         <mxCell id="wkkwkTODxsin4exKlkUD-27" value="客户发现病毒，创建溯源任务&lt;br&gt;溯源结果：怎么发生的，在哪进来的，传播路径是什么" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="220" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wkkwkTODxsin4exKlkUD-50" target="wkkwkTODxsin4exKlkUD-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wkkwkTODxsin4exKlkUD-50" target="wkkwkTODxsin4exKlkUD-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-50" value="ZZSY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-51" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270.0000000000002" y="1340" as="sourcePoint" />
+            <mxPoint x="270.0000000000002" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-52" value="安全大数据平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wkkwkTODxsin4exKlkUD-52" target="wkkwkTODxsin4exKlkUD-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1050" as="sourcePoint" />
+            <mxPoint x="430" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-54" value="1. 是否要支持从大数据平台进行溯源&lt;br&gt;&lt;div&gt;&lt;span&gt;2. 追踪溯源的过程和结果和客户预期有gap，攻击链&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;3. 人工溯源在这里只是历史任务，没有价值&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="1100" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wkkwkTODxsin4exKlkUD-56" target="wkkwkTODxsin4exKlkUD-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-56" value="自动溯源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wkkwkTODxsin4exKlkUD-58" target="wkkwkTODxsin4exKlkUD-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-58" value="人工溯源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wkkwkTODxsin4exKlkUD-60" target="wkkwkTODxsin4exKlkUD-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-60" value="溯源结果输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-61" value="安全大数据平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-64" value="追踪溯源结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="1280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-69" value="日志/告警" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="935" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-70" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="940" as="sourcePoint" />
+            <mxPoint x="460" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-71" value="&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;接入其他平台的日志和告警&lt;br&gt;告警一比一转化为ZZSY的告警&lt;br&gt;日志按需创建关联分析规则转化为ZZSY的告警&lt;br&gt;&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=middle;" connectable="0" vertex="1" parent="wkkwkTODxsin4exKlkUD-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-72" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570.0000000000002" y="1000" as="sourcePoint" />
+            <mxPoint x="690" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-73" value="维护威胁溯源模型，针对不同的告警，进行特定的溯源&lt;br&gt;关闭默认规则" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=middle;" connectable="0" vertex="1" parent="wkkwkTODxsin4exKlkUD-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-74" value="追踪溯源任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="990" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-75" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340.0000000000002" y="990" as="sourcePoint" />
+            <mxPoint x="460" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-76" value="要求追踪溯源任务以告警的形式提出" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="wkkwkTODxsin4exKlkUD-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-78" value="" style="endArrow=none;html=1;rounded=0;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wkkwkTODxsin4exKlkUD-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360.0000000000002" y="1410" as="sourcePoint" />
+            <mxPoint x="480" y="1370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-79" value="1. 安全事件、合并告警和合并卡片&lt;br&gt;2. 攻击链路图" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=middle;" connectable="0" vertex="1" parent="wkkwkTODxsin4exKlkUD-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-80" value="" style="endArrow=none;html=1;rounded=0;endFill=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wkkwkTODxsin4exKlkUD-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="650" as="sourcePoint" />
+            <mxPoint x="460" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkkwkTODxsin4exKlkUD-81" value="待明确" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="wkkwkTODxsin4exKlkUD-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
