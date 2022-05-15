@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T14:03:17.403Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="kLOL5laCt9kMZT5TgV6t" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T14:30:54.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="U6dOgZSOokoHRj9hzJt4" version="18.0.3" type="github">
   <diagram id="Bc4stklnjkjWacHDApCI" name="Page-1">
     <mxGraphModel dx="1300" dy="1374" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -455,6 +455,55 @@
         </mxCell>
         <mxCell id="wNQRX56qIdrxU0Y-b8XY-46" value="级联搜索" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2014" y="-58" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="wNQRX56qIdrxU0Y-b8XY-49" target="wNQRX56qIdrxU0Y-b8XY-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-49" value="Web API" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2316" y="-316" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="wNQRX56qIdrxU0Y-b8XY-50" target="wNQRX56qIdrxU0Y-b8XY-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-50" value="从缓存中获取安全事件进程树数据&lt;br&gt;Cache" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2315" y="-228" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNQRX56qIdrxU0Y-b8XY-52" target="wNQRX56qIdrxU0Y-b8XY-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2561" y="-100" />
+              <mxPoint x="2561" y="148" />
+              <mxPoint x="2376" y="148" />
+              <mxPoint x="2376" y="203" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="wNQRX56qIdrxU0Y-b8XY-52" target="wNQRX56qIdrxU0Y-b8XY-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-52" value="&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#000000&quot;&gt;存在父进程日志？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="-140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-53" value="Web API response" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2315" y="182" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-58" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2438" y="-136" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;startArrow=none;" edge="1" parent="1" source="wNQRX56qIdrxU0Y-b8XY-62" target="wNQRX56qIdrxU0Y-b8XY-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-59" value="实时检索并&lt;br&gt;构建进程树" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2314" y="-32" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-62" value="更新缓存" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2315" y="59" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNQRX56qIdrxU0Y-b8XY-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;endArrow=none;" edge="1" parent="1" source="wNQRX56qIdrxU0Y-b8XY-59" target="wNQRX56qIdrxU0Y-b8XY-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2374.526315789474" y="28.000000000000227" as="sourcePoint" />
+            <mxPoint x="2368" y="196" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
