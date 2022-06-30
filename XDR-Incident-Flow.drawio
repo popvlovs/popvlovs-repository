@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T03:32:25.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="zqIeWEfyclNj-zCeiBrV" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-30T05:40:27.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="8zRkcUFzRipGdFJw1xa4" version="20.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1818" dy="1694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -222,7 +222,7 @@
         <mxCell id="JY7lylcE65taJHY3PQle-67" value="&lt;h1 style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;不同-1&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&amp;nbsp;此处仅当安全事件创建时会触发一次，对应搜索任务在后续中不再更新&lt;/p&gt;&lt;p style=&quot;&quot;&gt;而本脑则会在其他入口告警创建后，持续创建/更新搜索任务&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="550" y="1012" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="JY7lylcE65taJHY3PQle-69" value="&lt;h1 style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;不同-2&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;仅有一级搜索&lt;/p&gt;&lt;p style=&quot;&quot;&gt;意味着 搜索任务不会级联创建下一级搜索&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="JY7lylcE65taJHY3PQle-69" value="&lt;h1 style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;不同-2&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;仅有一级搜索&lt;/p&gt;&lt;p style=&quot;&quot;&gt;意味着 搜索任务不会级联创建下一级搜索，相应的逻辑都被移除了&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1010" y="580" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="JY7lylcE65taJHY3PQle-70" value="&lt;h1 style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;不同-3&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;yaml中定义的日志搜索不会真正执行，而是记录为epl，并在前端展现时转化为实时搜索&lt;/p&gt;&lt;p style=&quot;&quot;&gt;前提是不会基于日志进行级联搜索（只有一级搜索）&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
