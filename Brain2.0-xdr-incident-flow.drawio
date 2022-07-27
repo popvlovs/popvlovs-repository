@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T03:52:55.032Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="jqyHG8wz8umzoqEkovRc" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-27T12:03:04.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="CrGh1xoYSoRzdhOVhsrT" version="20.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1924" dy="2188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="855" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -89,16 +89,15 @@
         <mxCell id="nPrQg0g38Dgxvw3ITCfk-24" value="创建XDR安全事件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="310" y="976" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nPrQg0g38Dgxvw3ITCfk-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nPrQg0g38Dgxvw3ITCfk-26" target="nPrQg0g38Dgxvw3ITCfk-33" edge="1">
+        <mxCell id="nPrQg0g38Dgxvw3ITCfk-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nPrQg0g38Dgxvw3ITCfk-26" target="nPrQg0g38Dgxvw3ITCfk-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="190" y="1180" />
-              <mxPoint x="370" y="1180" />
+              <mxPoint x="190" y="1064" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="nPrQg0g38Dgxvw3ITCfk-26" value="更新XDR安全事件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="130" y="974" width="120" height="40" as="geometry" />
+          <mxGeometry x="130" y="892" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nPrQg0g38Dgxvw3ITCfk-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nPrQg0g38Dgxvw3ITCfk-30" target="nPrQg0g38Dgxvw3ITCfk-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -277,21 +276,21 @@
         <mxCell id="nPrQg0g38Dgxvw3ITCfk-77" value="Create Sub SearchTask(s)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="860" y="530" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RQOKvc79yT3smewqRkZd-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RQOKvc79yT3smewqRkZd-8" target="RQOKvc79yT3smewqRkZd-10">
+        <mxCell id="RQOKvc79yT3smewqRkZd-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RQOKvc79yT3smewqRkZd-8" target="RQOKvc79yT3smewqRkZd-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RQOKvc79yT3smewqRkZd-8" value="引擎#1&lt;br&gt;尝试匹配XDR安全场景模型入口规则" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="RQOKvc79yT3smewqRkZd-8" value="引擎#1&lt;br&gt;尝试匹配XDR安全场景模型入口规则" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="310" y="335" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RQOKvc79yT3smewqRkZd-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RQOKvc79yT3smewqRkZd-10" target="RQOKvc79yT3smewqRkZd-12">
+        <mxCell id="RQOKvc79yT3smewqRkZd-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RQOKvc79yT3smewqRkZd-10" target="RQOKvc79yT3smewqRkZd-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RQOKvc79yT3smewqRkZd-14" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RQOKvc79yT3smewqRkZd-13">
+        <mxCell id="RQOKvc79yT3smewqRkZd-14" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RQOKvc79yT3smewqRkZd-13" vertex="1" connectable="0">
           <mxGeometry x="-0.3684" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RQOKvc79yT3smewqRkZd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RQOKvc79yT3smewqRkZd-10" target="nPrQg0g38Dgxvw3ITCfk-16">
+        <mxCell id="RQOKvc79yT3smewqRkZd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RQOKvc79yT3smewqRkZd-10" target="nPrQg0g38Dgxvw3ITCfk-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="240" y="431" />
@@ -299,26 +298,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RQOKvc79yT3smewqRkZd-19" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RQOKvc79yT3smewqRkZd-18">
+        <mxCell id="RQOKvc79yT3smewqRkZd-19" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RQOKvc79yT3smewqRkZd-18" vertex="1" connectable="0">
           <mxGeometry x="-0.7096" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RQOKvc79yT3smewqRkZd-10" value="Any Match?" style="rhombus;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="RQOKvc79yT3smewqRkZd-10" value="Any Match?" style="rhombus;whiteSpace=wrap;html=1;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="330" y="401" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RQOKvc79yT3smewqRkZd-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RQOKvc79yT3smewqRkZd-12" target="RQOKvc79yT3smewqRkZd-15">
+        <mxCell id="RQOKvc79yT3smewqRkZd-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RQOKvc79yT3smewqRkZd-12" target="RQOKvc79yT3smewqRkZd-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RQOKvc79yT3smewqRkZd-12" value="标记为核心告警" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="RQOKvc79yT3smewqRkZd-12" value="标记为核心告警" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="310" y="490" width="120" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="RQOKvc79yT3smewqRkZd-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RQOKvc79yT3smewqRkZd-15" target="nPrQg0g38Dgxvw3ITCfk-16">
+        <mxCell id="RQOKvc79yT3smewqRkZd-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RQOKvc79yT3smewqRkZd-15" target="nPrQg0g38Dgxvw3ITCfk-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RQOKvc79yT3smewqRkZd-15" value="记录合并告警命中的XDR安全场景模型" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="RQOKvc79yT3smewqRkZd-15" value="记录合并告警命中的XDR安全场景模型" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;sketch=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="310" y="560" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
