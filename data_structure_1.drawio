@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T06:35:04.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="otH1UGP91sr5P72YaSbW" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-10T06:37:52.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="0Taj6m4EwxJGgJ9KTXpz" version="22.1.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2147" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2675" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -18,7 +18,7 @@
         <mxCell id="cbeaFEtR_NDSK7Wnvq1E-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cbeaFEtR_NDSK7Wnvq1E-6" target="cbeaFEtR_NDSK7Wnvq1E-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cbeaFEtR_NDSK7Wnvq1E-73" value="快照" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cbeaFEtR_NDSK7Wnvq1E-72">
+        <mxCell id="cbeaFEtR_NDSK7Wnvq1E-73" value="安全事件历史任务&lt;br&gt;执行时刻的合并告警快照" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cbeaFEtR_NDSK7Wnvq1E-72">
           <mxGeometry x="-0.3133" relative="1" as="geometry">
             <mxPoint y="38" as="offset" />
           </mxGeometry>
@@ -146,10 +146,10 @@
             <mxPoint x="299.99999999999955" y="1097.5882352941178" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cbeaFEtR_NDSK7Wnvq1E-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cbeaFEtR_NDSK7Wnvq1E-78" target="cbeaFEtR_NDSK7Wnvq1E-106">
+        <mxCell id="cbeaFEtR_NDSK7Wnvq1E-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cbeaFEtR_NDSK7Wnvq1E-78" target="cbeaFEtR_NDSK7Wnvq1E-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cbeaFEtR_NDSK7Wnvq1E-117" value="快照" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cbeaFEtR_NDSK7Wnvq1E-116">
+        <mxCell id="cbeaFEtR_NDSK7Wnvq1E-117" value="安全事件历史任务&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;执行时刻的合并告警快照" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cbeaFEtR_NDSK7Wnvq1E-116">
           <mxGeometry x="-0.23" y="-4" relative="1" as="geometry">
             <mxPoint x="4" y="-5" as="offset" />
           </mxGeometry>
@@ -312,7 +312,7 @@
         <mxCell id="cbeaFEtR_NDSK7Wnvq1E-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=box;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cbeaFEtR_NDSK7Wnvq1E-130" target="cbeaFEtR_NDSK7Wnvq1E-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cbeaFEtR_NDSK7Wnvq1E-135" value="原始告警快照" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="cbeaFEtR_NDSK7Wnvq1E-135" value="原始告警快照" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="750" y="1430" width="160" height="138" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
